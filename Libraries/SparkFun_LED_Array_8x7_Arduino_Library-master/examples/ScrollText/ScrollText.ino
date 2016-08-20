@@ -60,10 +60,10 @@ void setup() {
 void loop() {
   
   // Scroll text 2 times (blocking)
-  Plex.scrollText("Hello. :)", 2, true);
+  Plex.scrollText("LIFELINE;)", 2, true);
   
   // Scroll text until we stop it
-  Plex.scrollText("r00tz rocks!");
+  Plex.scrollText("DEFCON r00tz");
   delay(10000);
   Plex.stopScrolling();
   delay(1000);

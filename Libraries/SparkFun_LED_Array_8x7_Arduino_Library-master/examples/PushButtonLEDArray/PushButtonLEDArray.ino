@@ -45,6 +45,7 @@ void setup() {
   Serial.println(F("-----------------------"));
   //configure pin2 as an input and enable the internal pull-up resistor
   pinMode(18, INPUT_PULLUP);
+  pinMode(19, INPUT_PULLUP);
   pinMode(13, OUTPUT);
     // Initialize and clear display
   Plex.init(led_pins);
@@ -56,15 +57,26 @@ void setup() {
 void loop() {
   //read the pushbutton value into a variable
   int sensorVal = digitalRead(18);
+  int sensorVel = digitalRead(19);
   //print out the value of the pushbutton
   Serial.println(sensorVal);
-
+  Serial.println(sensorVel);
   // Keep in mind the pullup means the pushbutton's
   // logic is inverted. It goes HIGH when it's open,
   // and LOW when it's pressed. Turn on pin 13 when the
   // button's pressed, and off when it's not:
   if (sensorVal == HIGH) {
     digitalWrite(13, LOW);
+    
+  } else {
+      Serial.println(F("Scroll some text"));
+  Plex.scrollText("rootz", 1);
+  }
+
+
+    if (sensorVel == HIGH) {
+    digitalWrite(13, LOW);
+    
   } else {
       Serial.println(F("Scroll some text"));
   Plex.scrollText("rootz", 1);
