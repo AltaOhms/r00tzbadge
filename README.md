@@ -37,6 +37,6 @@ The Redstick [guide](https://learn.sparkfun.com/tutorials/redstick-hookup-guide?
 If you are using Windows, you will need to install [FTDI Drivers](https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers). 
 
 ####Arduino IDE
-You will need to download the [Arduino IDE here](https://www.arduino.cc/en/Main/Software). Arduino is completely free and open source! What is great about the Arduino is that the community is huge and there is tons of example code and guides to help jump start your own projects. Include in this repo is [r00tz example code and libraries](https://github.com/HelloTechie/r00tzbadge/tree/master/Libraries). To learn how to add the r00tz arduino libraries, please follow this [tutorial](https://learn.sparkfun.com/tutorials/installing-an-arduino-library?_ga=1.197370157.304927311.1426541708).
+You will need to download the [Arduino IDE here](https://www.arduino.cc/en/Main/Software). Arduino is completely free and open source! What is great about the Arduino is that the community is huge and there is tons of example code and guides to help jump start your own projects. Included in this repo is [r00tz example code and libraries](https://github.com/HelloTechie/r00tzbadge/tree/master/Libraries). To learn how to add the r00tz arduino libraries, please follow this [tutorial](https://learn.sparkfun.com/tutorials/installing-an-arduino-library?_ga=1.197370157.304927311.1426541708).
 
 Happy hacking!
